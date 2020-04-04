@@ -2,6 +2,7 @@
     width: 129px;
     height: 192px;
     position: relative;
+    margin: 12px 0 0 12px;
 }
 .hot-item .title {
     position: absolute;

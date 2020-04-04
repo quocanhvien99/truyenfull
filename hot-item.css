@@ -1,12 +1,12 @@
 .hot-item {
     width: 129px;
     height: 192px;
-    position: relative;
     margin: 12px 0 0 12px;
 }
 .hot-item .title {
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    bottom: 10%;
+    height: 10%;
     width: 100%;
     padding: 3px;
     box-sizing: border-box;

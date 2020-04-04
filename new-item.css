@@ -35,3 +35,20 @@
     color: #3c3a3a;
     margin-right: 4px;
 }
+.top-item {
+    width: 129px;
+    height: 192px;
+    position: relative;
+    margin: 12px 0 0 12px;
+}
+.top-item .title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 3px;
+    box-sizing: border-box;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+}

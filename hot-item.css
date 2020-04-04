@@ -1,0 +1,16 @@
+.hot-item {
+    width: 129px;
+    height: 192px;
+    position: relative;
+}
+.hot-item .title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 3px;
+    box-sizing: border-box;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+}

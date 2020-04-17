@@ -9,7 +9,7 @@ body {
 }
 .container {  
     padding: 0 15px;
-    width: 1170px;    
+    width: 1140px;    
     margin: 0 auto;
     display: flex;    
 }
@@ -64,12 +64,17 @@ input[type=search]:focus {
 #search-btn:hover {
     background-color: #DDD;
 }
-.description {
-    padding: 8px 14%;
+.description { 
+    padding: 8px 0;
     font-size: 14px;
     color: #555;
     background-color: #ECECEC;
     box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.3);
+}
+.description .content {
+    padding: 0 15px;
+    width: 1140px;    
+    margin: 0 auto;
 }
 .nav-control li:hover {
     background-color: #2F566D;
@@ -164,10 +169,12 @@ input[type=search]:focus {
     width: 129px;
     height: 192px;    
     margin: 12px 0 0 12px;
+    position: relative; 
+    text-transform: capitalize;
 }
 .hot-item .title {
-    position: relative;
-    bottom: 12%;    
+    position: absolute;
+    bottom: 0;    
     width: 100%;
     padding: 3px;
     box-sizing: border-box;
@@ -178,13 +185,13 @@ input[type=search]:focus {
 }
 .top-item {
     width: 265px;
-    height: 396px;    
+    height: 396px;
+    position: relative;    
 }
 .top-item .title {      
     padding: 12px;    
     color: #FFFC57;   
-    font-size: 18px;   
-    text-transform: capitalize;
+    font-size: 18px;
 }
 .list-items {
     display: flex;    
@@ -222,10 +229,10 @@ input[type=search]:focus {
     flex-grow: 1;
 }
 .new-item .col-2 {
-    width: 120px;
+    width: 170px;
 }
 .new-item .col-3 {
-    width: 120px;
+    width: 140px;
 }
 .new-item .col-4 {
     width: 90px;
@@ -299,8 +306,12 @@ input[type=search]:focus {
     align-items: center;    
 }
 .fineshed-item h3 {
+    height: 16px;
+    text-align: center;
     font-size: 14px;
+    text-transform: capitalize;
     margin: 10px 0 5px 0;
+    overflow: hidden;
 }
 .label-btn {
     display: inline-block;

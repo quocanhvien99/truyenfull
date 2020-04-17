@@ -1,7 +1,8 @@
 .hot-item {
     width: 129px;
     height: 192px;
-    margin: 12px 0 0 12px;
+    margin: -50px;
+    border: 2px solid black;
 }
 .hot-item .title {
     position: relative;

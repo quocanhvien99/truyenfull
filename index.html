@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Đọc truyện online, đọc truyện hay</title>
         <script src="https://kit.fontawesome.com/3a5e19e6c3.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <link rel="stylesheet" href="./style.css">
         <link rel="shortcut icon" type="image/x-icon" href="https://static.8cache.com/favicon.ico">
     </head>
@@ -46,7 +47,7 @@
                             </li>
                         </ul>
                         <div class="nav-search">
-                            <input type="search" placeholder="Tìm kiếm" id="input-form"><button id="search-btn"><i class="fas fa-search"></i></button>                    
+                            <input type="search" placeholder="Tìm kiếm"><button id="search-btn"><i class="fas fa-search"></i></button>                    
                         </div>
                     </div>
                 </div>
@@ -59,6 +60,11 @@
                 <div class="hot-items-container">
                     <div class="title-list">
                         <h2>truyện hot</h2>
+                        <div class="new-select">            
+                            <select id="theloai" class="theloai">
+                                                
+                            </select>
+                        </div>                                            
                     </div>
                     <div class="list-items">
                         <div class="top-item hot-item">
@@ -157,6 +163,11 @@
                     <div class="new-items-container">
                         <div class="title-list">
                             <h2>truyện mới cập nhật</h2>
+                            <div class="new-select">            
+                                <select id="theloai" class="theloai">
+                                                    
+                                </select>
+                            </div>                                                  
                         </div>
                         <div class="new-item">
                             <div class="col-1"><i class="fas fa-play"></i><a href="#">Giai Nhân Và Luật Sư</a></div>
@@ -347,5 +358,7 @@
                 </div>
             </div>
         </div>
+
+        <script src="./loadNewSelect.js"></script>
     </body>
 </html>
